@@ -1,0 +1,59 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-14T03:24:57.425Z",
+        "line": 4,
+        "name": "Advanced Search Link",
+        "description": "//Given When and Then",
+        "id": "ebay-home-page-scenarios;advanced-search-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on Ebay Home Page",
+            "match": {
+              "location": "steps.EbayHome_Stpes.i_am_on_Ebay_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Advanced Link",
+            "match": {
+              "location": "steps.EbayHome_Stpes.i_click_on_Advanced_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I navigate to Advanced Search Page",
+            "match": {
+              "location": "steps.EbayHome_Stpes.i_navigate_to_Advanced_Search_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Ebay Home Page Scenarios",
+    "description": "",
+    "id": "ebay-home-page-scenarios",
+    "keyword": "Feature",
+    "uri": "file:feature/ebay_home.feature",
+    "tags": []
+  }
+]
